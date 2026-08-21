@@ -19,4 +19,4 @@ java arquivo
 ```
 
 ## Autor
-    Gabriel Torres Machado - [GitHub](https://github.com/gabrieltm-sudo/ "Abrir perfil")
+- Gabriel Torres Machado - [GitHub](https://github.com/gabrieltm-sudo/ "Abrir perfil")
