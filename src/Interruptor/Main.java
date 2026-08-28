@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args){
-        Lampada lampada = new Lampada("A");
+        LampadaInterruptor lampada = new LampadaInterruptor("A");
         Interruptor interruptor = new Interruptor(lampada);
         
         lampada.mostrarEstado();

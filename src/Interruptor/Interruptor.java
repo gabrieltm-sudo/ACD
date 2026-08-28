@@ -1,4 +1,3 @@
-
 /**
  * Escreva uma descrição da classe Interruptor aqui.
  * 
@@ -6,9 +5,9 @@
  * @version (um número da versão ou uma data)
  */
 public class Interruptor{
-    private Lampada lampada;
+    private LampadaInterruptor lampada;
     
-    public Interruptor(Lampada lampada){
+    public Interruptor(LampadaInterruptor lampada){
         this.lampada = lampada;
     }
     

@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src/Interruptor",
+        "src/InterruptorBateria",
+        "src/Data",
+        "src/DataHorarioCompromissoLembrete"
+    ]
+}

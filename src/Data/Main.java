@@ -26,8 +26,8 @@ public class Main {
                 
                 break;
         }
+        scan.close();
         
         System.out.println("Nova data: " + data.mostrarData());
     }
-        
 }

@@ -1,4 +1,4 @@
-public class Data{
+public class Data {
     private int dia;
     private int mes;
     private int ano;
@@ -64,5 +64,5 @@ public class Data{
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
-    }
+    }   
 }

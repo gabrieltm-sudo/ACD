@@ -1,11 +1,9 @@
-
 /**
- * Escreva uma descrição da classe Lâmpada aqui.
  * 
  * @author Gabriel Torres Machado 
  * @version 23/08/2026
  */
-public class Lampada
+public class LampadaInterruptor
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private boolean energizada;
@@ -13,7 +11,7 @@ public class Lampada
     /**
      * Construtor para objetos da classe Lâmpada
      */
-    public Lampada(String lampNome)
+    public LampadaInterruptor(String lampNome)
     {
         // inicializa variáveis de instância
         energizada = false;
