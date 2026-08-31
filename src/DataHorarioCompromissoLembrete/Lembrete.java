@@ -1,9 +1,6 @@
-import java.util.Scanner;
-// import java.util.Vector;
-
 public class Lembrete {
     private String descricao;
-    private /*Vector<*/Data/*>*/ data;
+    private Data data;
     
     public Lembrete(String desc, Data data){
         this.descricao = desc;
@@ -16,6 +13,6 @@ public class Lembrete {
     }
 
     public String imprimirLembrete(){
-        return this.descricao;
+        return String.format("%s às %s", descricao, data.mostrarData());
     }
 }

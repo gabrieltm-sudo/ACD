@@ -51,13 +51,8 @@ public class Data {
         return true;
     }
     
-    public String mostrarData(){    // Ajustar estrutura do método
-        String data;
-        
-        data = dia+"/"+mes+"/"+ano;
-        
-        System.out.println(data);
-        return data;
+    public String mostrarData(){    // Ajustar estrutura do método - OK
+        return String.format("%d/%d/%d", dia, mes, ano);
     }
     
     public void ajustarData(int dia, int mes, int ano){
