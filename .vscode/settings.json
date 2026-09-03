@@ -3,6 +3,7 @@
         "src/Interruptor",
         "src/InterruptorBateria",
         "src/Data",
-        "src/DataHorarioCompromissoLembrete"
+        "src/DataHorarioCompromissoLembrete",
+        "src/Semana2/SavingsAccounts"
     ]
 }
