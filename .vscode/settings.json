@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "src/Veículos",
         "src/Semana1/Interruptor",
         "src/Semana1/InterruptorBateria",
         "src/Semana1/Data",
