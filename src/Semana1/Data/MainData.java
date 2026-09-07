@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainData {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        Data data = new Data(29, 12, 2026);
+        DataData data = new DataData(29, 12, 2026);
         
         data.mostrarData();
         

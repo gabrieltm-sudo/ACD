@@ -1,3 +1,5 @@
+// package Semana2.SavingsAccounts;
+
 public class SavingsAccount {
     private static double annualInterestRate = 0.4;
     private double savingsBalance;

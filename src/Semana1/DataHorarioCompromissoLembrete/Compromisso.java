@@ -1,15 +1,15 @@
 public class Compromisso {
     private String descricao;
-    private Data data;
+    private DataData data;
     private Horário hora;
 
-    public Compromisso(String desc, Data data, Horário hora){
+    public Compromisso(String desc, DataData data, Horário hora){
         this.descricao = desc;
         this.data = data;
         this.hora = hora;
     }
 
-    public void ajustarCompromisso(String desc, Data data, Horário hora){
+    public void ajustarCompromisso(String desc, DataData data, Horário hora){
         this.descricao = desc;
         this.data = data;
         this.hora = hora;

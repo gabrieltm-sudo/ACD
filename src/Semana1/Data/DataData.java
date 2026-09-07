@@ -1,11 +1,11 @@
-public class Data {
+public class DataData {
     private int dia;
     private int mes;
     private int ano;
     private static final int[] meses30Dias = {4, 6, 9, 11};
 
     // Construtor
-    public Data(int dia, int mes, int ano){
+    public DataData(int dia, int mes, int ano){
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;

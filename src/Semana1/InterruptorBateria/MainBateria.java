@@ -1,4 +1,4 @@
-public class Main {
+public class MainBateria {
     public static void main(String[] args){
         InterruptorBateria interruptor = new InterruptorBateria();
 

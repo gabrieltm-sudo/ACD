@@ -1,13 +1,13 @@
 public class Lembrete {
     private String descricao;
-    private Data data;
+    private DataData data;
     
-    public Lembrete(String desc, Data data){
+    public Lembrete(String desc, DataData data){
         this.descricao = desc;
         this.data = data;
     }
 
-    public void ajustarLembrete(String desc, Data data){
+    public void ajustarLembrete(String desc, DataData data){
         this.descricao = desc;
         this.data = data;
     }
