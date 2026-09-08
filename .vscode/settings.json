@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "src/Semana1/Interruptor",
+        "src/Semana1/InterruptorBateria",
+        "src/Semana1/Data",
+        "src/Semana1/DataHorarioCompromissoLembrete",
+        "src/Semana2/SavingsAccounts",
+        "src/Semana2/Invoice",
+        "src/Semana2/Employee",
+        "src/Semana2/Retangulo",
+        "src/Semana2/ContaBancaria",
+        "src/Semana2/Heater",
+    ]
+}
