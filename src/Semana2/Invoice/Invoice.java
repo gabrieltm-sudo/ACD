@@ -56,7 +56,6 @@ public class Invoice {
     }
     
     public String print(){
-
         return String.format("Fatura %s | Descrição: %s | Quantidade de itens: %d | Preço: R$%.2f\n", number, description, quantity, price);
     }
 }
