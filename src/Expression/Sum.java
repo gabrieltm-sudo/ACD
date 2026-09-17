@@ -10,6 +10,7 @@ public class Sum extends Expression{
         this.expressions = expressions;
     }
 
+    @Override
     public double evaluate(){
         double resultado = 0;
 

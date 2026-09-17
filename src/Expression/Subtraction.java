@@ -10,12 +10,12 @@ public class Subtraction extends Expression{
         this.expressions = expressions;
     }
 
+    @Override
     public double evaluate(){
-        double resultado = 0;
+        double resultado = expressions.get(0).evaluate();
 
-        for(Expression i: expressions){
-            resultado-=i.evaluate();
-        }
+        resultado-=expressions.get(1).evaluate();
+        
 
         return resultado;
     }

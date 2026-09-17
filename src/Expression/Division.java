@@ -10,10 +10,13 @@ public class Division extends Expression {
         this.expressions = expressions;
     }
 
+    @Override
     public double evaluate(){
-        if(expressions.get(1).evaluate()==0){
+        double divisor = expressions.get(1).evaluate();
+        double dividendo = expressions.get(0).evaluate();
+        if(divisor==0){
             throw new ExpressaoInvalidaException("O divisor da divisão não pode ser zero.");
         }
-        return expressions.get(0).evaluate()/expressions.get(1).evaluate(); // TODO: Ajustar - Utilizar variáveis para maior legibilidade
+        return dividendo/divisor;
     }
 }

@@ -1,37 +1,40 @@
-import java.util.Scanner;
-public class Main {
+import java.util.ArrayList;
+
+public class Main{
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
-        int opt;
+        ArrayList<Expression> sumExpressions = new ArrayList<>();
 
-        do{
-            Menu();
-            System.out.println("Escolha uma das opções acima: ");
-            opt = scan.nextInt();
-            
-            System.out.println("=================================================\n");
-            scan.nextLine();
+        sumExpressions.add(new Number(10));
+        sumExpressions.add(new Number(20));
+        
+        Expression sum = new Sum(sumExpressions);
+        System.out.println("10+20 = " + sum.evaluate());
 
-            switch(opt){
-                case 1:
+        ArrayList<Expression> multiExpressions = new ArrayList<>();
+        multiExpressions.add(sum);
+        multiExpressions.add(new Number(5));
 
-                    break;
-                case 2:
+        Expression expression1 = new Multiplication(multiExpressions);
+        System.out.println("(10+20)*(5) = " + expression1.evaluate());
 
-                    break;
-                case 0:
-                    System.out.println("Saindo do programa...\n");
-                    scan.close();
-                    System.exit(0);
-            }
-            
-        }while(opt!=0);
-    }
+        ArrayList<Expression> divExpression = new ArrayList<>();
+        divExpression.add(new Number(100));
+        divExpression.add(new Number(4));
 
-    public static void Menu(){
-        System.out.println("=================================================\n");
-        System.out.println("1- Adicionar número ou expressão na calculadora");
-        System.out.println("2- Ver resultado");
-        System.out.println("0- Sair do programa");
+        Expression divExpressions = new Division(divExpression);
+        
+        ArrayList<Expression> subExpression1 = new ArrayList<>();
+        subExpression1.add(divExpressions);
+        subExpression1.add(new Number(7));
+
+        Expression expression2 = new Sum(subExpression1);
+
+        ArrayList<Expression>  subExpression = new ArrayList<>();
+        subExpression.add(expression1);
+        subExpression.add(expression2);
+        
+        Expression expressionFinal = new Subtraction(subExpression);
+        
+        System.out.println("((10+20)*5)-((100-4)+7) = " + expressionFinal.evaluate());
     }
 }

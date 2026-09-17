@@ -13,6 +13,7 @@ public class Number extends Expression{
         return value;
     }
 
+    @Override
     public double evaluate(){
         return value;
     }
