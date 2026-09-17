@@ -10,5 +10,8 @@
         "src/Semana2/Retangulo",
         "src/Semana2/ContaBancaria",
         "src/Semana2/Heater",
+        "src/Progression",
+        "src/Supermercado",
+        "src/Expression",
     ]
 }
