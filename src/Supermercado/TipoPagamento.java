@@ -1,3 +1,3 @@
 public enum TipoPagamento {
-    DINHEIRO, CHEQUE, CARTÃO;
+    DINHEIRO, CHEQUE, CARTÃO, PIX;
 }
