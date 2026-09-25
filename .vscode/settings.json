@@ -1,5 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "src/Progression",
+        "src/Supermercado",
+        "src/Expression",
         "src/Semana1/Interruptor",
         "src/Semana1/InterruptorBateria",
         "src/Semana1/Data",
@@ -10,9 +13,6 @@
         "src/Semana2/Retangulo",
         "src/Semana2/ContaBancaria",
         "src/Semana2/Heater",
-        "src/Progression",
-        "src/Supermercado",
-        "src/Expression",
-        "src/CircuitoSerial",
+        "src/Semana3/CircuitoSerial",
     ]
 }
