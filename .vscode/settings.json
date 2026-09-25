@@ -13,5 +13,6 @@
         "src/Progression",
         "src/Supermercado",
         "src/Expression",
+        "src/CircuitoSerial",
     ]
 }
